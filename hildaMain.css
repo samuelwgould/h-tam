@@ -1,0 +1,22 @@
+.html {
+        font-family: "Abel", sans-serif; }
+
+h1 h5 h3 {
+        text-shadow: 1px 1px black;
+    }
+.social {
+  display: inline-block;
+  vertical-align: middle;
+  width: 17%;
+  margin: 1px;
+  min-width: 50px;
+}
+
+.social:hover {
+    transform: scale(1.3);
+}
+
+.icons {
+    align-content: center;
+    border: 1px solid black;
+}
