@@ -1,6 +1,5 @@
-
 .headertext {
-        text-shadow: 2px 2px black;
+        
         color: antiquewhite;
         font-family: 'Varela Round', sans-serif;
     }
@@ -18,9 +17,28 @@
 }
 
 
-#message {
+.maingrid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     
 }
+
+.imggrid {
+    width: 200px;
+    height: 200px;
+    flex: 33%;
+    padding: 1%;
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+}
+.imggrid:hover {
+    opacity: .75;
+}
+
+
+
 
 
 
